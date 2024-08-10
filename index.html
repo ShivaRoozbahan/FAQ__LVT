@@ -13,9 +13,9 @@
         <img src="./assets/logo2.png" alt="logo" class="header-logo" />
       </div>
       <div>
-        <nav>
+        <nav class="nav">
           <a href="#">Contact</a>
-          <a href="#">FAQ</a>
+          <a href="./index.html" class="faq-a">FAQ</a>
           <a href="#">About</a>
         </nav>
       </div>
@@ -27,15 +27,16 @@
       </div>
 
       <!-- --------------  box question -------------- -->
-      <div>
-        <div>
-          <img src="./assets/135.PNG" alt="" />
+      <div class="main">
+        <div class="div-img">
+          <img src="./assets/135.PNG" alt="" class="img-user" />
         </div>
-        <div>
-          <div>
-            <label for="">
+        <div class="box-question">
+          <div class="box1">
+            <input class="checkbox1" type="checkbox" id="check1" />
+            <label class="title" for="check1">
               What is HTML?
-              <span>
+              <span class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
@@ -51,17 +52,18 @@
                 </svg>
               </span>
             </label>
-            <p>
+            <p class="description1">
               HTML is the markup language that we use to structure and give
               meaning to our web content, for example defining paragraphs,
               headings, and data tables, or embedding images and videos in the
               page.
             </p>
           </div>
-          <div>
-            <label for="">
+          <div class="box2">
+            <input type="checkbox" id="check2" class="checkbox2" />
+            <label class="title" for="check2">
               What is CSS?
-              <span>
+              <span class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
@@ -77,16 +79,17 @@
                 </svg>
               </span>
             </label>
-            <p>
+            <p class="description2">
               CSS is a language of style rules that we use to apply styling to
               our HTML content, for example setting background colors and fonts,
               and laying out our content in multiple columns.
             </p>
           </div>
-          <div>
-            <label for="">
-              whate is JavaScript
-              <span>
+          <div class="box3">
+            <input type="checkbox" id="check3" class="checkbox3" />
+            <label class="title" for="check3">
+              whate is JavaScript?
+              <span class="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
@@ -102,7 +105,7 @@
                 </svg>
               </span>
             </label>
-            <p>
+            <p class="description3">
               JavaScript is a scripting language that enables you to create
               dynamically updating content, control multimedia, animate images,
               and pretty much everything else.
@@ -113,19 +116,18 @@
 
       <!-- ---------- send question ---------- -->
 
-      <div>
-        <div>
-          <p>Ask us your questions</p>
-          <label for=""></label>
-          <input type="text" placeholder="your question?" />
-          <button type="submit">send</button>
+    
+        <div class="send-question">
+          <label for="question">Ask us your questions </label>
+          <input type="text" placeholder="your question?" id="question" />
+          <button type="submit" class="send">send</button>
         </div>
-      </div>
+      </
     </main>
 
-    <footer>
+    <footer class="footer">
       <p>FAQ</p>
-      <div>
+      <div class="media">
         <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
